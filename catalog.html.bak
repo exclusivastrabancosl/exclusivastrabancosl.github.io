@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Pagina de exclusivas Trabanco sl.</title>
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+   
+    <script src="jquery/jquery-1.10.2.min.js"></script>
+    <!--
+	<link href="jquery/jquery.mobile-1.3.2.min.css" rel="stylesheet" type="text/css" />
+    <script src="jquery/jquery.mobile-1.3.2.min.js"></script>
+    -->
+    <link href="jquery-mobile/jquery.mobile-1.4.1.min.css" rel="stylesheet" type="text/css" />
+	<script src="jquery-mobile/jquery.mobile-1.4.1.min.js"></script>
+    
+    <link href="weather.css" rel="stylesheet" type="text/css" />
+    <script src="catalogo.js"></script>
+    <script src="md5-min.js"></script>
+    
+     
+ <link rel="apple-touch-icon" href="images/logo2.png"/>
+ <link rel="apple-touch-startup-image" href="images/startup.png">
+ <link rel="apple-touch-startup-image" href="images/startupx2.png" sizes="640x1096">
+   
+ <link rel="shortcut icon" href="images/logo2.png" type="image/png" />
+
+</head>
+
+<body >
+
+     	
+	
+			
+    
+       <div data-role="page" id="Catalogos">
+         <div data-role="header" class= "home-header ui-bar-c" >
+                      <h1><img src="images/logo.png"  alt=""/><br>Catalogos</h1>
+         </div>
+        <div data-role="content">
+        
+              	<ul id="catalogos" data-role="listview" data-inset="true" data-filter="false"></ul>	
+         	
+         	
+        <!-- 
+         <ul data-role="listview" data-filter="true" data-filter-placeholder="Buscar ..." data-inset="true">
+        
+             <li><a href="http://www.int-salim.com/visualizador/">
+              <img src="images/int-salim.jpg" >
+             <h2>Visualizador Int-salim</h2>
+             <p>Vea los productos de int-salim en su visualizador</p></a>
+            </li>
+         
+          
+            <li>
+            <a href="http://huebner-vital.com/en/585.html">
+             <img src="images/silicea.jpg" >
+             <h2>Productos Huebner</h2>
+              <p> Pagina oficial de los productos Huebner </p></a>
+            </li>
+            
+           <li>
+            <a href="http://www.sanavi.com/es/presentacion/presentacion.html">
+             <img src="images/sanavi.jpg" >
+             <h2>Productos Sanavi</h2>
+              <p> Pagina oficial de los productos Sanavi </p></a>
+            </li>
+           
+        </ul>
+		
+	    	-->
+          
+           
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+             	  <ul>
+                    <li><a href="index.html#inicio" data-icon="home" class="ui-btn-active" >Inicio</a></li>        
+                </ul>
+            </div>
+        </div>
+    </div> 
+    
+    
+ 
+    
+    <!-- Javascript -->
+    <script>
+	
+   
+   $(document).on('submit', '#formpass', function() { 
+     pasapass() ;     
+   }) ;
+   
+   $( "#hola-mundo" ).bind( "click", function(event, ui) {
+            alert("Hola Mundo!");
+   });
+
+   $( "#enviar" ).bind( "click", function(event, ui) {
+      pasapass() ; 
+	 });
+		
+	
+   jQuery(window).load(function () {
+        mirasiInstala() ;   
+    });
+	
+		
+    </script>
+    <!-- // Javascript -->
+</body>
+</html>
