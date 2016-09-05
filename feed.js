@@ -1,7 +1,7 @@
 // JavaScript Document
 // URL del servicio web, ruta a un recurso de nuestra "mini API" creada para el curso
     var urlBase = "https://dl.dropboxusercontent.com/u/6324007/blog/"
-    var urlService = urlBase + "json/noticias.json";	
+       var urlService = urlBase + "json/noticias.json";	
 		var urlEnlaces = urlBase + "json/enlaces.json";	
 		
 		//	var urlService = "json/noticias.json";	
@@ -208,7 +208,7 @@ function pasapass() {
   {
   	  if ( opcion == "2")
       {
-  	    	path = "https://exclusivastrabancosl.github.io/catalagos/"	
+  	    	path = ""	
         	var cUrl = "#Catalogos" ;
           var cTarget = "_self" ;
       }    
