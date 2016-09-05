@@ -208,7 +208,7 @@ function pasapass() {
   {
   	  if ( opcion == "2")
       {
-  	    	path = ""	
+  	    	path = "https://exclusivastrabancosl.github.io/catalagos/"	
         	var cUrl = "#Catalogos" ;
           var cTarget = "_self" ;
       }    
