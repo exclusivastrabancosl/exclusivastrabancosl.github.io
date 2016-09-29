@@ -214,8 +214,10 @@ function pasapass() {
       }    
      else  
     {
-    		var cUrl = "arti.html" ;
-  	    var cTarget = "_self" ; 	    	
+    	var cUrl = "listado/ofertas.pdf" ;
+      	var cTarget = "_blank" ; 	  	
+    	//  var cUrl = "arti.html" ;
+  	//  var cTarget = "_self" ; 	   	
     }
   }	
                  
