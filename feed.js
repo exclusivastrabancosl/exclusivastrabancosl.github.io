@@ -214,7 +214,7 @@ function pasapass() {
       }    
      else  
     {
-    	var cUrl = "listado/ofertas.pdf" ;
+    	var cUrl =  path + "listado/ofertas.pdf" ;
       	var cTarget = "_blank" ; 	  	
     	//  var cUrl = "arti.html" ;
   	//  var cTarget = "_self" ; 	   	
