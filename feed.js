@@ -200,7 +200,7 @@ function pasapass() {
   
   if ( opcion == "1")
   {
-  	var cUrl = path + "listado/listado.pdf" ;
+  	var cUrl = path + "listado/LISTADO.pdf" ;
   	var cTarget = "_blank" ; 	  	
   	
   }
