@@ -194,8 +194,8 @@
 	
 function pasapass() { 
   var nombre = $("#nombre").val();
-  var path = "https://dl.dropboxusercontent.com/u/6324007/blog/" ;
-  
+ // var path = "https://dl.dropboxusercontent.com/u/6324007/blog/" ;
+   var path = "./" ;
   var opcion = $("input[name=radio2]:checked").val();
   
   if ( opcion == "1")

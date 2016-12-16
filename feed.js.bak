@@ -1,7 +1,7 @@
 // JavaScript Document
 // URL del servicio web, ruta a un recurso de nuestra "mini API" creada para el curso
     var urlBase = "https://dl.dropboxusercontent.com/u/6324007/blog/"
-    var urlService = urlBase + "json/noticias.json";	
+       var urlService = urlBase + "json/noticias.json";	
 		var urlEnlaces = urlBase + "json/enlaces.json";	
 		
 		//	var urlService = "json/noticias.json";	
@@ -200,7 +200,7 @@ function pasapass() {
   
   if ( opcion == "1")
   {
-  	var cUrl = "listado/listado.pdf" ;
+  	var cUrl = path + "listado/listado.pdf" ;
   	var cTarget = "_blank" ; 	  	
   	
   }
@@ -214,8 +214,10 @@ function pasapass() {
       }    
      else  
     {
-    		var cUrl = "listado/listado.pdf" ;
-  	    var cTarget = "_blank" ; 	    	
+    	var cUrl =  path + "listado/ofertas.pdf" ;
+      	var cTarget = "_blank" ; 	  	
+    	//  var cUrl = "arti.html" ;
+  	//  var cTarget = "_self" ; 	   	
     }
   }	
                  
