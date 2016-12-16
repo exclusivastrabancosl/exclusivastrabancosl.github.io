@@ -1,0 +1,57 @@
+[
+{
+ "title": " Visualizador Int-Salim",
+ "description": "Vea los productos de int-salim en su visualizador. ",
+ "link": "http://www.int-salim.com/visualizador/",
+ "imagen": "json/images/int-salim.jpg"
+  },
+  
+{
+    "title": " Productos Huebner ",
+    "description": " P&aacute;gina oficial de los productos Huebner ",
+    "link": "http://huebner-vital.com/en/585.html",
+    "imagen":"json/images/silicea.jpg"
+ },
+ 
+  {
+	"title": " Productos Sanavi ",
+    "description": "P&aacute;gina oficial de los productos Sanavi ",
+    "link": "http://www.sanavi.com/es/presentacion/presentacion.html",
+    "imagen": "json/images/sanavi.jpg"
+   },
+   
+ {
+	"title": " Ana Maria Lajusticia ",
+    "description": "P&aacute;gina oficial de sus productos ",
+    "link": "http://www.anamarialajusticia.es/catalogo-productos/general",
+    "imagen": "json/images/AML.jpg"
+   },  
+   
+  {
+	"title": " Vademecum Ana Maria Lajusticia ",
+    "description": "Descarga vademecum profesional de sus productos ",
+    "link": "https://www.dropbox.com/s/xwfimr3dzxj7iza/Vademecum_PROFESIONALES_mayo2014.pdf",
+    "imagen": "json/images/AML.jpg"
+   },
+   
+     {
+  	"title": " Energy Fruits ",
+    "description": "Cat&aacute;logo de productos de Energy Fruits",
+    "link": "https://www.yumpu.com/es/document/view/55024955/catalogo-corporativo-tentorium-energy",
+    "imagen": "json/images/energyfruits.jpg"
+   }, 
+   
+   {
+	"title": " Productos Sucralin ",
+    "description": "Enlace a los productos Sucralin ",
+    "link": "http://www.sucralin.es/es/productos/farmacia-y-herboristeria/",
+    "imagen": "json/images/sucralin.jpg"
+   },
+   
+    {
+	"title": " Productos Granovita ",
+    "description": "Enlace a los productos Granovita ",
+    "link": "http://granovita.com/catalogo/",
+    "imagen": "json/images/granovita.jpg"
+   }      
+ ]
