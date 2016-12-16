@@ -1,7 +1,8 @@
 // JavaScript Document
 // URL del servicio web, ruta a un recurso de nuestra "mini API" creada para el curso
-    var urlBase = "https://dl.dropboxusercontent.com/u/6324007/blog/"
-       var urlService = urlBase + "json/noticias.json";	
+   // var urlBase = "https://dl.dropboxusercontent.com/u/6324007/blog/"
+    var urlBase = "./" 
+    var urlService = urlBase + "json/noticias.json";	
 		var urlEnlaces = urlBase + "json/enlaces.json";	
 		
 		//	var urlService = "json/noticias.json";	
