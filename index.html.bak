@@ -200,8 +200,12 @@
                </tr>                  		
            </tbody> 
         </table>         
-    
-   
+      <p>          
+       Siguenos en twitter :
+       	<a href="https://twitter.com/Exclusicastrab1">       
+        <img src="images/twitter.png" align= "middle"> 
+        </a>
+     </p> 
     
       <!--   mapa  	
         <div id="map" >
